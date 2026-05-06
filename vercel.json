@@ -1,8 +1,5 @@
 {
   "buildCommand": null,
   "outputDirectory": ".",
-  "framework": null,
-  "rewrites": [
-    { "source": "/", "destination": "/Leadership Lunch Club (standalone).html" }
-  ]
+  "framework": null
 }
