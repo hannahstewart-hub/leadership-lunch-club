@@ -25,7 +25,7 @@ function Nav() {
   return (
     <nav className="nav">
       <div className="nav-inner">
-        <img className="logo" src="assets/logo-birdie-navy.png" alt="Birdie" />
+        <img className="logo" src={window.__resources.logoNavy} alt="Birdie" />
         <span className="nav-tag">Events &amp; community</span>
         <div className="nav-cta">
           <a className="btn btn-hollow" href="#register">Apply for a place</a>
@@ -77,7 +77,7 @@ function Hero({ tweaks }) {
               <div className="l2">16 June</div>
             </div>
           </div>
-          <img className="hero-logo" src="assets/lunch-club-logo.png" alt="The Leadership Lunch Club with Alexis Neighbour" />
+          <img className="hero-logo" src={window.__resources.lunchClubLogo} alt="The Leadership Lunch Club with Alexis Neighbour" />
           <div className="date-chip bot">
             <div className="icon"><i data-lucide="sparkles"></i></div>
             <div>
@@ -172,7 +172,7 @@ function WhoFor() {
   return (
     <section className="who-for">
       <div className="who-inner">
-        <img className="who-cal" src="assets/cal-tilt-right.png" alt="" />
+        <img className="who-cal" src={window.__resources.calTiltRight} alt="" />
         <div>
           <h2>This is for leaders.</h2>
           <p>The Leadership Lunch Club is designed for <strong>managers, directors, and owners</strong> - the people responsible for how a team performs and a business grows.</p>
@@ -188,7 +188,7 @@ function About() {
     <section className="about" id="alexis">
       <div className="about-inner">
         <div className="about-photo-wrap">
-          <img className="about-photo" src="assets/alexis-photo.jpg" alt="Alexis Neighbour" />
+          <img className="about-photo" src={window.__resources.alexisPhoto} alt="Alexis Neighbour" />
         </div>
         <div>
           <div className="about-eyebrow">Your host</div>
@@ -273,7 +273,7 @@ function Footer() {
   return (
     <footer>
       <div className="foot-inner">
-        <img src="assets/logo-birdie-navy.png" alt="Birdie" />
+        <img src={window.__resources.logoNavy} alt="Birdie" />
         <div className="note">© 2026 Birdie Care Ltd · birdie.care</div>
       </div>
     </footer>);
